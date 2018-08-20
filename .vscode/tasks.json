@@ -1,0 +1,23 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "0.1.0",
+	"command": "haxe",
+	"isShellCommand": true,
+	"args": [],
+	"showOutput": "always",
+	"tasks": [
+		{
+			"taskName": "build",
+			"isBuildCommand": true,
+			"command": "haxe",
+			"args": ["build.hxml"]
+		},
+		{
+			"taskName": "alt",
+			"command": "haxe",
+			"isBuildCommand": true,
+			"args": ["build.alt.hxml"]
+		}
+	]
+}
